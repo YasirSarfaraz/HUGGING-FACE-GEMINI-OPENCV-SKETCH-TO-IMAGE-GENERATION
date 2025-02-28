@@ -15,6 +15,17 @@ HUGGING-FACE-GEMINI-OPENCV-SKETCH-TO-IMAGE-GENERATION is an AI-powered interacti
 - **Image Generation**: Generates high-quality images from sketches using Stable Diffusion XL from Hugging Face.
 - **Streamlit UI**: A simple, interactive web application for users to draw and generate images.
 
+## Approach Adopted
+### Hand Tracking & Gesture Recognition:
+   - Used MediaPipe Hands for real-time finger tracking.
+   - Mapped different hand gestures to specific drawing actions.
+### Sketch Interpretation:
+   - Converted sketches into meaningful text descriptions using Google Gemini AI.
+   - Used image preprocessing techniques to enhance input clarity.
+### Image Generation:
+   - Utilized Hugging Face’s Stable Diffusion XL to generate high-quality images based on interpreted prompts.
+   - Optimized model inputs to improve coherence between the sketch and generated image.
+
 ## Technology Stack
 
 - **Python 3.10.11**     
@@ -24,6 +35,15 @@ HUGGING-FACE-GEMINI-OPENCV-SKETCH-TO-IMAGE-GENERATION is an AI-powered interacti
 - **Hugging Face API (for AI image generation)**
 - **Google Gemini AI (for sketch understanding)**
 - **NumPy, PIL (for image manipulation)**
+
+## Models Used
+- Google Gemini AI: Used for interpreting hand-drawn sketches and converting them into descriptive text prompts.
+- Hugging Face Stable Diffusion XL: Generates high-resolution images based on the processed text prompts.
+- MediaPipe Hands: Detects and tracks hand gestures to enable interactive drawing.
+
+## Architecture
+![Architecture_HuggingFace](https://github.com/user-attachments/assets/1d7b343a-1c32-4c75-8e0d-36dedd619f67)
+
 
 ## Installation & Setup
 ### 1. Clone the Repository
