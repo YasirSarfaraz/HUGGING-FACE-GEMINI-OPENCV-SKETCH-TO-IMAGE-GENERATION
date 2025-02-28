@@ -7,3 +7,4 @@ streamlit-extras
 numpy
 requests
 python-dotenv
+streamlit-drawable-canvas
