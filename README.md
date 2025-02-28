@@ -26,19 +26,18 @@ HUGGING-FACE-GEMINI-OPENCV-SKETCH-TO-IMAGE-GENERATION is an AI-powered interacti
 - **NumPy, PIL (for image manipulation)**
 
 ## Installation & Setup
-###1. Clone the Repository
-- git clone https://github.com/yourusername/HUGGING-FACE-GEMINI-OPENCV-SKETCH-TO-IMAGE-GENERATION.git
-cd HUGGING-FACE-GEMINI-OPENCV-SKETCH-TO-IMAGE-GENERATION
-###2. Install Dependencies
+### 1. Clone the Repository
+- git clone https://github.com/yourusername/HUGGING-FACE-GEMINI-OPENCV-SKETCH-TO-IMAGE-GENERATION.git cd HUGGING-FACE-GEMINI-OPENCV-SKETCH-TO-IMAGE-GENERATION
+### 2. Install Dependencies
 - pip install -r requirements.txt
-###3. Set Up Environment Variables
+### 3. Set Up Environment Variables
 - Create a .env file in the root directory and add:
 - HUGGING_FACE_API_KEY=your_api_key
 - GOOGLE_API_KEY=your_google_api_key
-###4. Run the Application
+### 4. Run the Application
 - streamlit run genai.py
 
-##Usage
+## Usage
 1. Start the application and allow webcam access.
 2. Use hand gestures to draw on the screen.
    - Index & Middle Finger Up: Draw
@@ -48,14 +47,15 @@ cd HUGGING-FACE-GEMINI-OPENCV-SKETCH-TO-IMAGE-GENERATION
 3. Generate an AI image by clicking on "Generate Image."
 4. Download the final generated image.
 
-##Project Showcase
-###1. Live Demo (Video)
-
-###2. Sample Outputs (Screenshots)
+## Project Showcase
+### 1. Live Demo (Video)
 
 
+### 2. Sample Outputs (Screenshots)
 
-##Future Improvements
+
+
+## Future Improvements
 - Improve sketch interpretation with better AI models.
 - Enhance gesture recognition for more natural controls.
 - Support multiple drawing tools (brush size, colors, etc.).
